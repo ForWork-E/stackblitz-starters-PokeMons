@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <title>Hjem</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="headerLogo">FW</div>
+        <ul class="navigationList">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="flexCenter">
+        <h1>Pokemons</h1>
+
+        <label for="pokemon-input">Enter Pokémon Name:</label>
+        <input id="pokemon-input" type="text" aria-label="Pokémon search input" />
+
+        <div id="loading" style="display: none">Loading...</div>
+
+        <div id="pokeDex"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
